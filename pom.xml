@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<groupId>org.oauth2.demo</groupId>
-	<artifactId>oauth2-demo</artifactId>
+	<groupId>org.easy.oauth2</groupId>
+	<artifactId>easy-oauth2-framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>oauth2-demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>easy-oauth2-framework</name>
+	<description>Easy OAuth2 Framework</description>
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -20,22 +20,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.dmfs</groupId>
-			<artifactId>oauth2-essentials</artifactId>
-			<version>0.22.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.dmfs</groupId>
-			<artifactId>httpurlconnection-executor</artifactId>
-			<version>1.22.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
